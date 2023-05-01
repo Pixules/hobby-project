@@ -126,4 +126,16 @@ i {
   header h3 {
     font-size: 14px;
   }
+  footer {
+    padding: 15px 0;
+  }
+  footer h3 {
+    font-size: 12px;
+  }
+  footer p {
+    font-size: 10px;
+  }
+  footer a {
+    font-size: 9px;
+  }
 }
