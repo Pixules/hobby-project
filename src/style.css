@@ -1,7 +1,55 @@
-h1 {
+.container {
+  max-width: 1300px;
+  margin: 0 auto:
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("../images/tattoosign.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 250px 0;
+}
+
+header h1 {
   font-family: "Maven Pro", sans-serif;
   font-weight: 400;
-  font-size: 90px;
+  font-size: 96px;
+  line-height: 1;
+  margin: 0;
+}
+
+header h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+header h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 0.5;
+  letter-spacing: 4px;
+  margin: 0;
+}
+
+header a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #272044;
+  line-height: 1.5;
+  padding: 15px 30px;
+  display: inline-block;
+  margin-top: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: white;
 }
 
 p {
