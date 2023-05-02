@@ -146,12 +146,11 @@ footer p {
 
 i {
   font-size: 18px;
-
   letter-spacing: 5px;
 }
 
 .tattoo-img {
-  max-width: 500px;
+  max-width: 95%;
   border-radius: 12px;
 }
 
