@@ -33,6 +33,15 @@ body {
   margin: 25px 0;
 }
 
+.card-header.grid {
+  grid-gap: 0;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: auto;
+}
+
 .card-body {
   padding: 25px;
 }
@@ -54,7 +63,7 @@ header {
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 150px 0;
+  padding: 130px 0;
 }
 
 header h1 {
@@ -224,6 +233,14 @@ i {
 
   .tattoo-img {
     max-width: 70%;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
   }
 
   section {
