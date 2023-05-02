@@ -9,13 +9,21 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 15px;
 }
 
+.grid-2-col {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-col {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
 section {
-  max-width: 1100px;
+  max-width: 1000px;
   margin: 0 auto;
+  padding: 80px 0;
 }
 
 header {
@@ -25,7 +33,7 @@ header {
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 200px 0;
+  padding: 150px 0;
 }
 
 header h1 {
@@ -67,9 +75,35 @@ header a {
   background: white;
 }
 
-p {
+main {
+  background-color: rgb(236, 220, 220);
   font-family: "Poppins", sans-serif;
+}
+
+main h2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 4px;
+  color: #7f7e85;
+  opacity: 0.5;
+  text-transform: uppercase;
+  margin: 0.2;
+}
+
+main h3 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
+main p {
   font-weight: 200;
+  font-size: 15px;
+  color: #272044;
+  line-height: 1.2;
 }
 
 footer {
@@ -79,7 +113,6 @@ footer {
   background-size: cover;
   color: white;
   font-family: "Poppins", sans-serif;
-  padding: 80px 0;
 }
 
 footer h3 {
@@ -117,6 +150,11 @@ i {
   letter-spacing: 5px;
 }
 
+.tattoo-img {
+  max-width: 500px;
+  border-radius: 12px;
+}
+
 .footer-details {
   margin: 1em;
 }
@@ -134,9 +172,15 @@ i {
   header h3 {
     font-size: 14px;
   }
-  footer {
-    padding: 15px 0;
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
   }
+
+  section {
+    padding: 15px;
+  }
+
   footer h3 {
     font-size: 12px;
   }
