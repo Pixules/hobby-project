@@ -16,6 +16,10 @@ body {
   grid-gap: 15px;
 }
 
+.grid-top-col {
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
 .grid-2-col {
   grid-template-columns: 1fr 1fr;
 }
@@ -39,7 +43,7 @@ body {
 
 .embed {
   width: 100%;
-  aspect-ratio: auto;
+  aspect-ratio: 1/1;
 }
 
 .card-body {
